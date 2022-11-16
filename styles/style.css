@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
+.container /* 10 */{
+    font-family: "Lato-Regular";
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 186, 251);
+    background-image: url(../images/country.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fixed__link /* 10 */ {
+    display: block;
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+
+.header__heading /* 10 */ {
+    display: flex;
+    color: #ffffff;
+    padding-bottom: 1.24%;
+    border: solid #5B6DCD 10px;
+    align-items: flex-end;
+    padding: 1.7%;
+    justify-content: space-between;
+}
+
+.header__top /* 10 */ {
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    align-items: center;
+    color: #ffffff;
+}
+/* .menu__link {
+    display: inline-block;
+    font-size: 1rem;
+    outline: 2px solid black;
+}
+
+.menu__item {
+    outline: 2px solid black;
+}
+.menu__link:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    outline: 2px solid #000000;
+} */
+
+.button__prepend /* 10 */ {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 70%;
+}
+
+.header__select,
+.header__link /* 10 */ {
+    display: flex;
+    font-weight: bold;
+    
+}
+
+
+.header__link /* 10 */ {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    align-items: flex-start;
+}
+
+.section,
+.footer__head /* 10 */ {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+h2 /* 1 */ {
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 0,5%;
+}
+
+h3 /* 1 */ {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+h4 /* 1 */ {
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 0.5%;
+}
+
+/* Footer */
+
+.footer__head /* 10 */ {
+    display: flex;
+    padding-top: 40%;
+}
+
+.footer__text /* 10 */ {
+        display: flex;
+        flex-direction: column;
+        border-top: 2px solid #cacaca;
+        color: #cacaca;
+        align-items: center;
+}
+
+.footer__map /* 10 */ {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    width: 100%;
+}
