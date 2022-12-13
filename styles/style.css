@@ -28,6 +28,11 @@
     background-size: cover;
 }
 
+#container {
+    background-color: #5B6DCD;
+    width: 100%;
+}
+
 .fixed__link /* 10 */ {
     display: block;
     position: fixed;
@@ -52,23 +57,6 @@
     align-items: center;
     color: #ffffff;
 }
-/* .menu__link {
-    display: inline-block;
-    font-size: 1rem;
-    outline: 2px solid black;
-}
-
-.menu__item {
-    outline: 2px solid black;
-}
-.menu__link:hover .submenu {
-    display: block;
-}
-
-.submenu {
-    display: none;
-    outline: 2px solid #000000;
-} */
 
 .button__prepend /* 10 */ {
     width: 50%;
