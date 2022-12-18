@@ -36,6 +36,13 @@
 
 }
 
+.fixed__link /* 10 */ {
+    display: block;
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+
 .header__heading /* 10 */ {
     display: flex;
     color: #ffffff;
